@@ -1,0 +1,14 @@
+package com.sunbeam;
+
+public class EmployeeSort {
+
+	public static void main(String[] args) {
+		Employee employee[]=new Employee[5];
+		employee[0]=new Employee(5,25000.0,"Shiv");
+		employee[1]=new Employee(5,25000.0,"Shiv");
+		employee[2]=new Employee(5,25000.0,"Shiv");
+		employee[3]=new Employee(5,25000.0,"Shiv");
+		employee[4]=new Employee(5,25000.0,"Shiv");
+	}
+
+}

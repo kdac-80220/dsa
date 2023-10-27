@@ -1,0 +1,19 @@
+
+public class CircularQueue {
+	private int arr[];
+	private final int SIZE;
+	private int rear,front;
+	private int counter;
+	
+	public CircularQueue(int size) {
+		SIZE=size;
+		arr=new int[SIZE];
+		front=-1;
+		rear=-1;
+	}
+	
+	public void insert(int data)
+	{
+		
+	}
+}

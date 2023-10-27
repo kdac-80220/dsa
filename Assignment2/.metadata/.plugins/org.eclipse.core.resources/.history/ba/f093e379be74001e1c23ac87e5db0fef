@@ -1,0 +1,9 @@
+package com.sunbeam;
+
+public class LinearQueueImplementation {
+
+	public static void main(String[] args) {
+		LinearQueue q=new LinearQueue(5);
+	}
+
+}

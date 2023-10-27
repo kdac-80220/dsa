@@ -1,0 +1,13 @@
+package com.sunbeam;
+
+public class LinearQueue {
+	
+		int arr[];
+		int rear,front;
+		private final int size;
+	
+		public LinearQueue(int size) {
+			// TODO Auto-generated constructor stub
+		}
+	
+}

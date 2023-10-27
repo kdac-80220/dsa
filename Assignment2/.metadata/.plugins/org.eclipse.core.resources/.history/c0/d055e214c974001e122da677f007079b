@@ -1,0 +1,9 @@
+
+public class CircularQueue {
+	private int arr[];
+	private final int SIZE;
+	private int rear,front;
+	
+	public CircularQueue() {
+	}
+}

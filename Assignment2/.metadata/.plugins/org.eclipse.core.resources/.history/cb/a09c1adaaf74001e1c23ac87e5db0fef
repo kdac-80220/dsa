@@ -1,0 +1,27 @@
+import java.util.Arrays;
+
+public class InsertsionSort {
+	
+	public static int InsertionSortMethod(int arr[])
+	{
+		int comparisions=0;
+			for(int i=1;i<arr.length;i++)
+			{
+				int temp=arr[i];
+				while(arr[i-1]>temp)
+				{
+					arr[i]=arr[i-i];
+					i--;
+				}
+			}
+		return comparisions;
+	}
+	
+	public static void main(String[] args) {
+		int arr[]= {70,40,30,90,50};
+		int noOfComparaision=InsertionSortMethod(arr);
+		System.out.println("Number of comaparions: "+noOfComparaision);
+		System.out.println(Arrays.toString(arr));
+	}
+
+}

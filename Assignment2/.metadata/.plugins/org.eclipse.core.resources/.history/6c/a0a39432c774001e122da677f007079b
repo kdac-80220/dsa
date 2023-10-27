@@ -1,0 +1,17 @@
+package com.sunbeam;
+
+public class LinearQueue {
+	
+	int arr[];
+	int front,rear;
+	private final int SIZE;
+	
+	public LinearQueue() {
+		
+	}
+	
+	public static void insert(int data)
+	{
+		
+	}
+}

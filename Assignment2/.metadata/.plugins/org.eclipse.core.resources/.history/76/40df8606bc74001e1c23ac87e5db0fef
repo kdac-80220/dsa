@@ -1,0 +1,7 @@
+package com.sunbeam;
+
+public class LinearQueue {
+	public LinearQueue() {
+		// TODO Auto-generated constructor stub
+	}
+}

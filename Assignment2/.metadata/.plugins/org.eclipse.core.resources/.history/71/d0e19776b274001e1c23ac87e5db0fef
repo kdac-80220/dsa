@@ -1,0 +1,7 @@
+package com.sunbeam;
+
+public class Employee {
+	int empid;
+	double sal;
+	String name;
+}

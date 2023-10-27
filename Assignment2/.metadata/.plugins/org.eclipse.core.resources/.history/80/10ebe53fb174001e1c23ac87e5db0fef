@@ -1,0 +1,15 @@
+import java.util.Arrays;
+
+public class InsertionSortDescendingOrder {
+	public static int InsertionSortMethodDesc(int arr[])
+	{
+		
+	}
+	public static void main(String[] args) {
+		int arr[]= {70,40,30,90,50};
+		int noOfComparaision=InsertionSortMethodDesc(arr);
+		System.out.println("Number of comaparions: "+noOfComparaision);
+		System.out.println(Arrays.toString(arr));
+	}
+
+}

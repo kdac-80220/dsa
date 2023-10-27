@@ -1,0 +1,37 @@
+package com.sunbeam;
+
+import java.util.Scanner;
+
+public class LinearQueueImplementation {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		LinearQueue q=new LinearQueue(5);
+		 
+		int choice;
+		do {
+			System.out.println("0.Exit");
+			System.out.println("1.Add Data");
+			System.out.println("2.Poll Data");
+			System.out.println("3.Peek Element");
+			System.out.println("Enter choice");
+			choice=sc.nextInt();
+			
+			switch (choice) {
+			case 1:
+				
+				break;
+			case 2:
+				
+				break;
+			case 3:
+				
+				break;
+			default:
+				break;
+			}
+		}
+		while(choice!=0);
+	}
+
+}

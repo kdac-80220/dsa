@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.sunbeam.LinearQueueMain&apos; to &apos;CircularQueue&apos;&#x0A;- Original project: &apos;Practice&apos;&#x0A;- Original element: &apos;com.sunbeam.LinearQueueMain&apos;&#x0A;- Renamed element: &apos;com.sunbeam.CircularQueue&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;LinearQueueMain&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.sunbeam{LinearQueueMain.java[LinearQueueMain" matchStrategy="1" name="CircularQueue" qualified="false" references="true" similarDeclarations="false" stamp="1698409587405" textual="false" version="1.0"/>
+</session>

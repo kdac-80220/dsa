@@ -1,0 +1,13 @@
+package com.sunbeam;
+
+public class Priority {
+	public static int findPriority(char x)
+	{
+		
+		return 0;
+	}
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+
+public class BubbleSort {
+	public static int BubbleSortMethod(int arr[])
+	{
+		int comparisons=0;
+		for(int i=0;i<arr.length;i++)
+		{
+			for(int j=1;j<arr.length-1-i;j++)
+			{
+				
+			}
+		}
+		return comparisons;
+	}
+	public static void main(String[] args) {
+		
+	}
+
+}

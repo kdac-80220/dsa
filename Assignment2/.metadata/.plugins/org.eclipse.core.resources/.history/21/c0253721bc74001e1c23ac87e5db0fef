@@ -1,0 +1,8 @@
+package com.sunbeam;
+
+public class LinearQueue {
+	public LinearQueue() {
+		int arr[];
+	}
+	
+}
