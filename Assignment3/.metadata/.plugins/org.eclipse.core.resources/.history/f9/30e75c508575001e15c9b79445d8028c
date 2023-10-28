@@ -1,0 +1,27 @@
+package com.shivshankar.assignment3q5;
+
+class Stack{
+	private int arr[];
+	private int top;
+	private final int SIZE;
+	
+	public Stack(int size)
+	{
+		SIZE=size;
+		arr=new int[SIZE];
+		top=-1;
+	}
+	
+	public void push(int data)
+	{
+		arr[top]=data;
+	}
+}
+
+public class ReverseArrayUsingStack {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

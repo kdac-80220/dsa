@@ -1,0 +1,14 @@
+package com.shivshankar.assignment3q1;
+
+public class PrefixCalculation {
+
+	public static void main(String[] args) {
+		Stack st=new Stack(10);
+		String prefix="";
+		for(int i=prefix.length()-1;i>=0;i--)
+		{
+			char ele=prefix.charAt(i);
+		}
+	}
+
+}

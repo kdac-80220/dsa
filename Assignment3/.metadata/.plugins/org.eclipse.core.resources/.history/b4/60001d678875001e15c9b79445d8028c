@@ -1,0 +1,11 @@
+package com.shivshankar.assignment2q6;
+class Queue{
+	
+}
+public class QueueAsStack {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.shivshankar.assignment3q5;
+
+class Stack{
+	
+}
+
+public class ReverseArrayUsingStack {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

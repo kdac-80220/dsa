@@ -1,0 +1,35 @@
+package com.shivshankar.assignment3q1;
+
+
+
+public class PostfixCalculation {
+	public static int calculate(int op1,int op2,char ele)
+	{
+		switch(ele)
+		{
+		case '+':return op1+op2;
+		case '-':return op1-op2;
+		case '*':return op1*op2;
+		case '/':return op1/op2;
+		}
+		return 0;
+	}
+	public static void main(String[] args) {
+		Stack st=new Stack(10);
+		String postfix="";
+		for(int i=0;i<postfix.length();i++)
+		{
+			char ele=postfix.charAt(i);
+			
+			if(Character.isDigit(ele))
+			{
+				st.push(ele);
+			}
+			else {
+				int op2=st.pop();
+				int op1=st.pop();
+			}
+		}
+	}
+
+}

@@ -1,0 +1,26 @@
+package com.shivshankar.assignment2q6;
+class Queue{
+	private int arr[];
+	private int rear,front;
+	private final int SIZE;
+	
+	public Queue(int size)
+	{
+		SIZE=size;
+		arr=new int[SIZE];
+		int rear=-1;
+		int fornt=-1;
+	}
+	
+	public void insert(int data)
+	{
+		rear++;
+	}
+}
+public class QueueAsStack {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

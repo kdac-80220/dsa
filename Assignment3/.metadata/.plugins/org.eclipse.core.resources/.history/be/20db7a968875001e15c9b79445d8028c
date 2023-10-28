@@ -1,0 +1,14 @@
+package com.shivshankar.assignment2q6;
+class Queue{
+	private int arr[];
+	private int rear,front;
+	
+	
+}
+public class QueueAsStack {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,51 @@
+package com.shivshankar.assignment2q6;
+class Queue{
+	private int arr[];
+	private int rear,front;
+	private final int SIZE;
+	
+	public Queue(int size)
+	{
+		SIZE=size;
+		arr=new int[SIZE];
+		rear=-1;
+		front=-1;
+	}
+	
+	public void insert(int data)
+	{
+		rear++;
+		arr[rear]=data;
+	}
+	
+	public void delete()
+	{
+		front++;
+	}
+	
+	public int peek()
+	{
+		return arr[front+1];
+	}
+	
+	public boolean isEmpty()
+	{
+		if(rear==front && rear==-1)
+		return true;
+		return false;
+	}
+	
+	public boolean isFull()
+	{
+		if(rear==SIZE-1)
+			return true;
+		return false;
+	}
+}
+public class QueueAsStack {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

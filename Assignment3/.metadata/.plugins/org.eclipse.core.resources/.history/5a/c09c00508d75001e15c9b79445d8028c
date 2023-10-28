@@ -1,0 +1,26 @@
+package com.shivshankar.assignment3q7;
+
+
+class Stack{
+	private int arr[];
+	private int top;
+	private final int SIZE;
+	
+	public Stack(int size)
+	{
+		SIZE=size;
+		arr=new int[SIZE];
+	}
+}
+
+
+
+
+public class StackAsQueue {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

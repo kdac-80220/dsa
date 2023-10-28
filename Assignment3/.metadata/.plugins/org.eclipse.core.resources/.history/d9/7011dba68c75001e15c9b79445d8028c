@@ -1,0 +1,10 @@
+class Stack{
+	
+}
+public class StackAsQueue {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

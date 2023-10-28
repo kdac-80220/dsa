@@ -1,0 +1,10 @@
+package com.shivshankar.assignment3q7;
+
+public class StackAsQueue {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

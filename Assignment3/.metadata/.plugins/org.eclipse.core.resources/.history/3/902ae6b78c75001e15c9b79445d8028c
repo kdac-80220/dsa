@@ -1,0 +1,12 @@
+class Stack{
+	int arr[];
+	int top;
+	int 
+}
+public class StackAsQueue {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
