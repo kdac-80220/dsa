@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.shivshankar.assignment4q1.LinearLinkedLit&apos; to &apos;LinearLinkedList&apos;&#x0A;- Original project: &apos;Assignment4Q1&apos;&#x0A;- Original element: &apos;com.shivshankar.assignment4q1.LinearLinkedLit&apos;&#x0A;- Renamed element: &apos;com.shivshankar.assignment4q1.LinearLinkedList&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;LinearLinkedLit&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.shivshankar.assignment4q1{LinearLinkedLit.java[LinearLinkedLit" matchStrategy="1" name="LinearLinkedList" qualified="false" references="true" similarDeclarations="false" stamp="1698661697017" textual="false" version="1.0"/>
+</session>

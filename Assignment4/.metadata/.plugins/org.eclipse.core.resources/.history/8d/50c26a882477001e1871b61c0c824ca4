@@ -1,0 +1,11 @@
+package com.shivshankar.assignment4q2;
+
+public class LinearCirculaerLinkedList {
+	public static void main(String[] args) {
+		List lt=new List();
+		lt.addFirst(15);
+		//lt.addFirst(25);
+		lt.addFirst(55);
+		lt.displayList();
+	}
+}

@@ -1,0 +1,49 @@
+package com.shivshankar.assignment4q2;
+
+public class List {
+	public class Node
+	{
+		private int data;
+		private Node next;
+		
+		private Node(int data){
+			this.data=data;
+			next=null;
+		}
+	}
+	
+	private Node tail;
+	
+	public List()
+	{
+		tail=null;
+	}
+	
+	public boolean isEmpty()
+	{
+		return tail==null;
+	}
+	public void addFirst(int data)
+	{
+		Node newnode=new Node(data);
+		if(isEmpty())
+			tail=newnode;
+		else {
+			tail.next=newnode;
+		}
+		
+	}
+	
+	public void displayList()
+	{
+		Node trav=tail;
+		
+		do {
+			System.out.println(" "+trav.data);
+			trav=trav.next;
+		}
+		while(trav.next!=tail);
+			
+	}
+	
+}

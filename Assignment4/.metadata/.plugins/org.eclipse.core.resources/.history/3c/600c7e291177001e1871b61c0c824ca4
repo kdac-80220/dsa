@@ -1,0 +1,38 @@
+package com.shivshankar.assignment4q1;
+
+public class List {
+	
+	public class Node{
+		private int data;
+		private Node next;
+		
+		public Node(int data)
+		{
+			this.data=data;
+			next=null;
+		}
+	}
+	private Node head;
+	
+	public List(){
+		head=null;
+	}
+	
+	public boolean isEmpty()
+	{
+		return head==null;
+	}
+	
+	public void addFirst(int value)
+	{
+		Node newnode=new Node(value);
+		if(isEmpty())
+			head=newnode;
+		else {
+			
+		}
+	}
+	
+	
+	
+}

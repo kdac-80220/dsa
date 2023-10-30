@@ -1,0 +1,27 @@
+package com.shivshankar.assignment4q2;
+
+public class List {
+	public class Node
+	{
+		private int data;
+		private Node next;
+		
+		private Node(int data){
+			this.data=data;
+			next=null;
+		}
+	}
+	
+	private Node tail;
+	
+	public List()
+	{
+		tail=null;
+	}
+	
+	public void addFirst(ind data)
+	{
+		
+	}
+	
+}

@@ -1,0 +1,15 @@
+package com.shivshankar.assignment4q1;
+
+public class LinearLinkedList {
+
+	public static void main(String[] args) {
+		List lt=new List();
+		lt.addFirst(10);
+		lt.addFirst(20);
+		lt.addFirst(30);
+		lt.addLast(55);
+		lt.deleteFirst();
+		lt.displayList();
+	}
+
+}
