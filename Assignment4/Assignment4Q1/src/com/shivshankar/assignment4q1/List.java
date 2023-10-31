@@ -31,7 +31,6 @@ public class List {
 		else {
 			newnode.next=head;
 			head=newnode;
-			
 		}
 	}
 	

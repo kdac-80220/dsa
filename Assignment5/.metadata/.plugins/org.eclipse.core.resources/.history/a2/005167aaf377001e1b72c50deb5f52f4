@@ -1,0 +1,8 @@
+package com.shivshanakar.assignment5q2;
+
+public class Stack {
+	public Stack()
+	{
+		
+	}
+}

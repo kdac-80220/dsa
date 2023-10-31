@@ -1,0 +1,20 @@
+package com.shivshankar.assignment5q1;
+
+public class DoublyCircularLinkedListMain {
+
+	public static void main(String[] args) {
+		DoublyCircularLinkedList ld=new DoublyCircularLinkedList();
+		ld.addFirst(25);
+		ld.addFirst(65);
+		ld.addFirst(105);
+		ld.addFirst(12);
+		ld.addFirst(57);
+		//ld.deleteFirst();
+		ld.addLast(22);
+		//ld.addPosition(999, 3);
+		//ld.deletePosition(3);
+		ld.deleteLast();
+		ld.displayList();
+	}
+
+}

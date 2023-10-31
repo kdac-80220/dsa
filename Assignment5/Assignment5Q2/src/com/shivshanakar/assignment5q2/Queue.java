@@ -1,0 +1,29 @@
+package com.shivshanakar.assignment5q2;
+
+public class Queue {
+	DoublyCircularLinkedList lt;
+	public Queue()
+	{
+		lt=new DoublyCircularLinkedList();
+	}
+	
+	public void offer(int data)
+	{
+		lt.addFirst(data);
+	}
+	
+	public void poll()
+	{
+		lt.deleteLast();
+	}
+	
+	public void peek()
+	{
+		System.out.println("Peek element in queue: "+lt.getPeekForQueue());
+	}
+	
+	public void display()
+	{
+		lt.displayList();
+	}
+}

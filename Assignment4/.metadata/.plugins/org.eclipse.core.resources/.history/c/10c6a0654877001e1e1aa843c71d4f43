@@ -1,0 +1,56 @@
+package com.shivshankar.listpractice;
+
+public class List {
+	public class Node{
+		private int data;
+		private Node next;
+		
+		public Node(int data) {
+			this.data=data;
+			next=null;
+		}
+	}
+	
+	private Node head;
+	
+	List(){
+		head=null;
+	}
+	
+	public boolean isEmpty()
+	{
+		return head==null;
+	}
+	
+	public void addList(int data)
+	{
+		Node shambho=new Node(data);
+		Node trav=head;
+		if(isEmpty())
+			head=shambho;
+		else {
+			while(trav.next!=null)
+				trav=trav.next;
+			trav.next=shambho;
+			
+		}
+	}
+	
+	public void displayList()
+	{
+		Node trav=head;
+		if(isEmpty())
+			System.out.println("List empty");
+		else{
+			while(trav.next!=null)
+		
+			{
+			System.out.println(" "+trav.data);
+			trav=trav.next;
+			
+			}
+		}
+		
+		
+	}
+}

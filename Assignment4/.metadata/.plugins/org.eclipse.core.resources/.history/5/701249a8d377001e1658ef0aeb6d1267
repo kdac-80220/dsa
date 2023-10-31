@@ -1,0 +1,9 @@
+package com.shivshankar.assignment4q3;
+
+public class List {
+	public class Node{
+		private int data;
+		private Node next;
+		
+	}
+}

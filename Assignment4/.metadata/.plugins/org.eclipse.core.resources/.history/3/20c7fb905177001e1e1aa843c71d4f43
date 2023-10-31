@@ -1,0 +1,15 @@
+package com.shivshankar.listpractice;
+
+public class TestCharList {
+
+	public static void main(String[] args) {
+		ListChar lc=new ListChar();
+		lc.addLast('S');
+		lc.addLast('H');
+		lc.addLast('I');
+		lc.addLast('V');
+		lc.addFirst('@');
+		lc.displayList();
+	}
+
+}

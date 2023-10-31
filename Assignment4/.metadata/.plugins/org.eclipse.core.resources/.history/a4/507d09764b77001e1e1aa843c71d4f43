@@ -1,0 +1,27 @@
+package com.shivshankar.listpractice;
+
+public class ListChar {
+	
+	public class Node{
+		private char data;
+		private Node next;
+		
+		public Node(char data)
+		{
+			this.data=data;
+			next=null;
+		}
+	}
+	private Node head;
+	private Node tail;
+	
+	public ListChar()
+	{
+		head=tail=null;
+	}
+	
+	public void addLast(char data)
+	{
+		
+	}
+}

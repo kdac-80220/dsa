@@ -1,0 +1,10 @@
+package com.shivshankar.assignment5q1;
+
+public class DoublyCircularLinkedListMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

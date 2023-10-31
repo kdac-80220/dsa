@@ -1,0 +1,9 @@
+package com.shivshankar.assignment4q8;
+
+public class SortWhileInsert {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

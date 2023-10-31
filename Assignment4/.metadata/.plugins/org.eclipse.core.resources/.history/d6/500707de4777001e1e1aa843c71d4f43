@@ -1,0 +1,12 @@
+package com.shivshankar.listpractice;
+
+public class TestList {
+
+	public static void main(String[] args) {
+		List lt=new List();
+		lt.addList(15);
+		lt.addList(15);
+		lt.displayList();
+	}
+
+}

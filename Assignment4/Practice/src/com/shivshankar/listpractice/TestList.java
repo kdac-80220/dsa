@@ -1,0 +1,17 @@
+package com.shivshankar.listpractice;
+
+public class TestList {
+
+	public static void main(String[] args) {
+		List lt=new List();
+		lt.addList(15);
+		lt.addList(25);
+		lt.addList(35);
+		lt.addLast(99);
+		lt.addLast(98);
+		lt.addLast(97);
+		lt.deleteLast();
+		lt.displayList();
+	}
+
+}

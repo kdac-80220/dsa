@@ -1,5 +1,0 @@
-package com.shivshankar.assignment4q1;
-
-public class List {
-	private int data;
-}

@@ -1,0 +1,14 @@
+package com.shivshanakar.assignment5q2;
+
+public class Queue {
+	DoublyCircularLinkedList lt;
+	public Queue()
+	{
+		lt=new DoublyCircularLinkedList();
+	}
+	
+	public void offer(int data)
+	{
+		
+	}
+}

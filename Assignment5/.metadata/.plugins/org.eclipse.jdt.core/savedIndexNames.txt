@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+/home/sunbeam/Documents/DSA_Assignment&Practice/Assignment5/.metadata/.plugins/org.eclipse.jdt.core
+1846340880.index
+646308851.index
+1865797976.index
+4144348330.index

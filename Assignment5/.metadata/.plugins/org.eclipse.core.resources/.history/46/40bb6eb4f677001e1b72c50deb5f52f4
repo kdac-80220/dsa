@@ -1,0 +1,25 @@
+package com.shivshanakar.assignment5q2;
+
+public class TestStackQueue {
+
+	public static void main(String[] args) {
+		Stack st=new Stack();
+		st.push(50);
+		st.push(60);
+		st.push(80);
+		st.push(90);
+		st.pop();
+		st.pop();
+		st.peek();
+		
+		Queue q=new Queue();
+		q.offer(70);
+		q.offer(45);
+		q.offer(95);
+		q.offer(85);
+		q.offer(55);
+		q.poll(0);
+		q.peek();
+	}
+
+}

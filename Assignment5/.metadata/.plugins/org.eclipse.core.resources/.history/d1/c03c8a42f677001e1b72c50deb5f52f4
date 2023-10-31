@@ -1,0 +1,12 @@
+package com.shivshanakar.assignment5q2;
+
+public class TestStackQueue {
+
+	public static void main(String[] args) {
+		Stack st=new Stack();
+		st.push(50);
+		st.push(55);
+		st.pop();
+	}
+
+}

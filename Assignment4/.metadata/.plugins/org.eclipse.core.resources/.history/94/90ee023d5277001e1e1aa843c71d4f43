@@ -1,0 +1,92 @@
+package com.shivshankar.listpractice;
+
+public class ListChar {
+	
+	public class Node{
+		private char data;
+		private Node next;
+		
+		public Node(char data)
+		{
+			this.data=data;
+			next=null;
+		}
+	}
+	private Node head;
+	private Node tail;
+	
+	public ListChar()
+	{
+		head=tail=null;
+	}
+	
+	public boolean isEmpty()
+	{
+		return head==null;
+	}
+	
+	public void addLast(char data)
+	{
+		Node newnode=new Node(data);
+		if(isEmpty())
+			tail=head=newnode;
+		else {
+			tail.next=newnode;
+			tail=newnode;
+		}
+	}
+	
+	public void displayList()
+	{
+		Node trav=head;
+		while(trav!=null)
+		{
+			System.out.print(" "+trav.data);
+			trav=trav.next;
+		}	
+	}
+	
+	public void addFirst(char data)
+	{
+		Node newnode=new Node(data);
+		
+		if(isEmpty())
+			head=newnode;
+		else {
+			newnode.next=head;
+			head=newnode;
+		}
+	}
+	
+	public void addPosition(char data,int pos)
+	{
+		if(isEmpty())
+			System.out.println("Empty list");
+		else {
+			Node newnode=new Node(data);
+			Node trav=head;
+			for(int i=1;i<pos-1;i++)
+			{
+				trav=trav.next;
+			}
+			trav.next
+		}
+	}
+	
+	
+	public void deletePosition(int pos)
+	{
+		if(isEmpty())
+			System.out.println("Empty list");
+		else {
+			Node trav=head;
+			for(int i=1;i<pos-1;i++)
+			{
+				trav=trav.next;
+			}
+			trav.next=trav.next.next;	
+				
+				
+		}
+	}
+}
