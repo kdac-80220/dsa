@@ -1,0 +1,92 @@
+package com.shivshankar.assignment4q10;
+
+public class List {
+	public class Node{
+		private Employee e;
+		private Node next;
+		
+		public Node(Employee e){
+			this.e=e;
+			next=null;
+		}
+	}
+	private Node head;
+	public List()
+	{
+		head=null;
+	}
+	public boolean isEmpty()
+	{
+		return head==null;
+	}
+	public void addFirst(Employee e)
+	{
+		Node newnode=new Node(e);
+		if(isEmpty())
+			head=newnode;
+		else {
+			newnode.next=head;
+			head=newnode;
+		}
+	}
+	
+	public void displayAll()
+	{
+		Node trav=head;
+		
+		while(trav!=null)
+		{
+			System.out.println(trav.e.toString());
+			trav=trav.next;
+		}	
+	}
+	
+	public void search(int id)
+	{
+		Node trav=head;
+		
+		while(trav!=null)
+		{
+			if(trav.e.empid==id)
+				System.out.println(trav.e.toString());
+			trav=trav.next;
+		}
+	}
+	
+	public void searchbyName(String nm)
+	{
+		Node trav=head;
+		
+		while(trav!=null)
+		{
+			if(trav.e.name.equals(nm))
+				System.out.println(trav.e.toString());
+			trav=trav.next;
+		}
+	}
+	
+	public void deleteByEmpid(int id)
+	{
+		Node trav=head;
+		
+		while(trav!=null)
+		{
+			if(trav.next.e.empid==id)
+			{
+				trav.next=trav.next;
+				System.out.println("Employee deleted");
+			}
+			trav=trav.next;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
